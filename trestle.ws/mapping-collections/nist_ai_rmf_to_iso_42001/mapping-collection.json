@@ -1,0 +1,1410 @@
+{
+  "mapping-collection": {
+    "uuid": "22d61cab-1096-44c9-8ef3-4ed0dbe49d3a",
+    "metadata": {
+      "title": "NIST AI RMF Generative AI Profile to ISO/IEC 42001:2023 Mapping",
+      "last-modified": "2026-06-03T12:20:26+00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.2.1"
+    },
+    "provenance": {
+      "method": "manual",
+      "matching-rationale": "semantic",
+      "status": "complete",
+      "mapping-description": "Mapping collection from NIST AI Risk Management Framework Generative AI Profile to ISO/IEC 42001:2023 AI Management System based on the official NIST crosswalk document."
+    },
+    "mappings": [
+      {
+        "uuid": "096150e7-40ff-4125-97aa-2fb488da6411",
+        "source-resource": {
+          "type": "catalog",
+          "href": "catalogs/nist_ai_rmf_gen_ai_1.0.0/catalog.json",
+          "props": [
+            {
+              "name": "catalog_uuid",
+              "value": "1cead03a-d26a-400d-b16b-169816e2e592",
+              "ns": "https://nist.gov/oscal/ns"
+            }
+          ]
+        },
+        "target-resource": {
+          "type": "catalog",
+          "href": "catalogs/iso_iec_42001_1.0.0/catalog.json",
+          "props": [
+            {
+              "name": "catalog_uuid",
+              "value": "dae82297-9bb2-45ba-b99d-95eaa69d497e",
+              "ns": "https://nist.gov/oscal/ns"
+            }
+          ]
+        },
+        "maps": [
+          {
+            "uuid": "e65e0a3e-a0ff-4c18-b843-32389c9bb752",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-1.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_4-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-2-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-2-4"
+              }
+            ]
+          },
+          {
+            "uuid": "98622c4f-5560-4888-a454-da97343bffd4",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-1.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-2-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_4-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_5-2"
+              }
+            ]
+          },
+          {
+            "uuid": "d5099bff-0c26-4a92-8a5a-7d6f53b86a90",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-1.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-3"
+              }
+            ]
+          },
+          {
+            "uuid": "ea904cfc-0a35-4ac1-81fb-a3359f42eb47",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-1.5"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_8-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_8-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_8-4"
+              }
+            ]
+          },
+          {
+            "uuid": "d0776a81-2107-4dc7-8229-aeb531efe054",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-1.6"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-2"
+              }
+            ]
+          },
+          {
+            "uuid": "89c030e0-4245-4819-b832-5b160ea4a050",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-1.7"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              }
+            ]
+          },
+          {
+            "uuid": "8df8f81f-e419-4093-8571-de90c9c82dae",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-2.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_5-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7--2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-3-2"
+              }
+            ]
+          },
+          {
+            "uuid": "9c313d87-e74b-43bb-bf4c-ff5e98b5281f",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-3.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-3-2"
+              }
+            ]
+          },
+          {
+            "uuid": "2f553359-438c-4ae1-9250-e44dcfd74071",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-4.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              }
+            ]
+          },
+          {
+            "uuid": "808ad718-6d01-4628-8a61-f0ff8cdfb5af",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-4.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-5"
+              }
+            ]
+          },
+          {
+            "uuid": "d70e2152-cd81-4600-84ad-cc2f6d9e6e69",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-4.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-7"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              }
+            ]
+          },
+          {
+            "uuid": "fc9fb711-4971-43eb-912e-44bc24eca955",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-5.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-3"
+              }
+            ]
+          },
+          {
+            "uuid": "5ea75b4a-06e8-4504-91bd-2b83bd537de5",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-6.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-3"
+              }
+            ]
+          },
+          {
+            "uuid": "43e6f5a2-a26c-4641-b188-8fa0774ad64a",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "GV-6.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-3"
+              }
+            ]
+          },
+          {
+            "uuid": "a10751b5-81a9-4738-86d5-e8e9ded8b5c7",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-1.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-5"
+              }
+            ]
+          },
+          {
+            "uuid": "1f0111a7-956f-4865-a839-f4d5a7dd0da8",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-1.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-2"
+              }
+            ]
+          },
+          {
+            "uuid": "5ffa0416-8932-47e7-823c-0d76ac949dbb",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-2.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-6"
+              }
+            ]
+          },
+          {
+            "uuid": "2571eb66-6771-46d2-9250-e4609bca901e",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-2.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-7"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              }
+            ]
+          },
+          {
+            "uuid": "d375c2cd-86cd-490b-ace5-79f87c2c388f",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-2.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-7"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              }
+            ]
+          },
+          {
+            "uuid": "df9cc6f0-25c1-4e96-b538-c8b64ea63c01",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-3.4"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-6"
+              }
+            ]
+          },
+          {
+            "uuid": "0fc9584f-e6dc-4afd-9216-fda51b1dd32c",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-4.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_4-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-2-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-4"
+              }
+            ]
+          },
+          {
+            "uuid": "4e4bf4f7-d549-47be-8ae2-e41aee51930c",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-5.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-2"
+              }
+            ]
+          },
+          {
+            "uuid": "e36b8fa2-355a-4eec-a595-364e5c3fe842",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MP-5.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-3"
+              }
+            ]
+          },
+          {
+            "uuid": "7370e93a-27ff-4391-9843-6ead69cad6d9",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-1.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              }
+            ]
+          },
+          {
+            "uuid": "4f003b82-ac20-4b08-ba3d-d133fbcf4c51",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-1.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-2-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-5"
+              }
+            ]
+          },
+          {
+            "uuid": "87c19607-e28f-4d2b-b28a-f4d0a622451c",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              }
+            ]
+          },
+          {
+            "uuid": "b03277a2-3264-4c91-b4c3-70fc8f9d5494",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              }
+            ]
+          },
+          {
+            "uuid": "038ac196-62ce-4a30-bc64-c2f1d5addb52",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.5"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-7"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              }
+            ]
+          },
+          {
+            "uuid": "a2d0997b-f644-4dc5-98af-6faa814ebd1e",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.6"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-8"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_8-2"
+              }
+            ]
+          },
+          {
+            "uuid": "948a73c6-c91f-45dc-a8a4-289e1fced8e3",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.7"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-3-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-2-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-3"
+              }
+            ]
+          },
+          {
+            "uuid": "e19416d1-9b6b-4b30-b0e5-1cea3d8964fa",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.8"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              }
+            ]
+          },
+          {
+            "uuid": "06eada27-62cd-44aa-b776-9f8004009772",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.9"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-7"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              }
+            ]
+          },
+          {
+            "uuid": "e1f7619a-05e6-4430-b5ef-c08901335cc1",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.10"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-2-3"
+              }
+            ]
+          },
+          {
+            "uuid": "f5c508c2-67c5-4864-9206-d08967abe4c9",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.11"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-4"
+              }
+            ]
+          },
+          {
+            "uuid": "3a8a3a9e-5236-4461-93da-7f6d3abcbbe7",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.12"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-5-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-5"
+              }
+            ]
+          },
+          {
+            "uuid": "ec957179-15a2-4ee9-a380-590cfe99d12d",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-2.13"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              }
+            ]
+          },
+          {
+            "uuid": "1398b67e-b2c6-4604-b9af-f54264905428",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-3.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_8-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_4-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_8-4"
+              }
+            ]
+          },
+          {
+            "uuid": "94a84ab9-0388-4027-9494-ed13ce88f0f6",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-3.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-8"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_10-1"
+              }
+            ]
+          },
+          {
+            "uuid": "3c7c3a7f-e167-4c6d-9151-47f0cbd8f251",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-3.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-3"
+              }
+            ]
+          },
+          {
+            "uuid": "37e95627-8e2a-4411-809b-aa814dce5687",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MS-4.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-2-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-3"
+              }
+            ]
+          },
+          {
+            "uuid": "6237d889-2500-4129-8424-3c37c15c34e8",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-1.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-4"
+              }
+            ]
+          },
+          {
+            "uuid": "194e2030-7fa8-401b-b104-13ca4de2adc0",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-2.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-3-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-7-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_7-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_10-1"
+              }
+            ]
+          },
+          {
+            "uuid": "33fc0ec5-3092-49fe-bbdb-e9564772cb97",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-2.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_10-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_6-1-3"
+              }
+            ]
+          },
+          {
+            "uuid": "ca0fc79d-91dd-4886-b365-21528a9760ea",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-2.4"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-9-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-7"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-1-3"
+              }
+            ]
+          },
+          {
+            "uuid": "5e8785ce-afaf-4b6f-9c5b-0f8d7084f311",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-3.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-2"
+              }
+            ]
+          },
+          {
+            "uuid": "dad5f4ea-32d1-4959-a560-ed2edfa920b1",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-3.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-4-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              }
+            ]
+          },
+          {
+            "uuid": "958108dd-d9a8-42d6-bb32-7eac26d6040f",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-4.1"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-2-1"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-10-4"
+              }
+            ]
+          },
+          {
+            "uuid": "eb557a62-71cf-483f-8b1e-f450af213ed4",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-4.2"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-3-3"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-4"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              }
+            ]
+          },
+          {
+            "uuid": "f6dfcf2d-83b6-4971-95e7-b739e7223476",
+            "relationship": "intersects-with",
+            "sources": [
+              {
+                "type": "group",
+                "id-ref": "MG-4.3"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_9-3-2"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-8-5"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso-iec-42001_B-6-2-6"
+              }
+            ]
+          }
+        ],
+        "target-gap-summary": {
+          "uuid": "b8cb1661-6ad4-4bc3-910b-cb98e60754ea",
+          "unmapped-controls": [
+            {
+              "with-ids": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

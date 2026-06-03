@@ -1,0 +1,836 @@
+{
+  "catalog": {
+    "uuid": "dae82297-9bb2-45ba-b99d-95eaa69d497e",
+    "metadata": {
+      "title": "ISO/IEC 42001:2023 AI Management System",
+      "last-modified": "2026-06-03T12:16:11+00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.2.1",
+      "remarks": "This catalog was generated from the NIST AI RMF to ISO/IEC 42001 crosswalk document."
+    },
+    "groups": [
+      {
+        "id": "iso-iec-42001_4",
+        "title": "Context of the Organization",
+        "controls": [
+          {
+            "id": "iso-iec-42001_4-1",
+            "title": "Understanding the organization and its context",
+            "parts": [
+              {
+                "id": "iso-iec-42001_4-1_smt",
+                "name": "statement",
+                "prose": "Understanding the organization and its context"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_4-3",
+            "title": "Determining the scope of the AI management system",
+            "parts": [
+              {
+                "id": "iso-iec-42001_4-3_smt",
+                "name": "statement",
+                "prose": "Determining the scope of the AI management system"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_4-4",
+            "title": "AI management system",
+            "parts": [
+              {
+                "id": "iso-iec-42001_4-4_smt",
+                "name": "statement",
+                "prose": "AI management system"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_5",
+        "title": "Leadership",
+        "controls": [
+          {
+            "id": "iso-iec-42001_5-1",
+            "title": "Leadership and commitment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_5-1_smt",
+                "name": "statement",
+                "prose": "Leadership and commitment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_5-2",
+            "title": "AI Policy",
+            "parts": [
+              {
+                "id": "iso-iec-42001_5-2_smt",
+                "name": "statement",
+                "prose": "AI Policy"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_5-3",
+            "title": "Roles, responsibilities and authorities",
+            "parts": [
+              {
+                "id": "iso-iec-42001_5-3_smt",
+                "name": "statement",
+                "prose": "Roles, responsibilities and authorities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_6",
+        "title": "Planning",
+        "controls": [
+          {
+            "id": "iso-iec-42001_6-1-1",
+            "title": "General",
+            "parts": [
+              {
+                "id": "iso-iec-42001_6-1-1_smt",
+                "name": "statement",
+                "prose": "General"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_6-1-2",
+            "title": "AI risk assessment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_6-1-2_smt",
+                "name": "statement",
+                "prose": "AI risk assessment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_6-1-3",
+            "title": "AI risk treatment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_6-1-3_smt",
+                "name": "statement",
+                "prose": "AI risk treatment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_6-1-4",
+            "title": "AI system impact assessment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_6-1-4_smt",
+                "name": "statement",
+                "prose": "AI system impact assessment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_6-2",
+            "title": "AI objectives and planning to achieve them",
+            "parts": [
+              {
+                "id": "iso-iec-42001_6-2_smt",
+                "name": "statement",
+                "prose": "AI objectives and planning to achieve them"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_7",
+        "title": "Support",
+        "controls": [
+          {
+            "id": "iso-iec-42001_7--2",
+            "title": "Competence",
+            "parts": [
+              {
+                "id": "iso-iec-42001_7--2_smt",
+                "name": "statement",
+                "prose": "Competence"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_7-1",
+            "title": "Resources",
+            "parts": [
+              {
+                "id": "iso-iec-42001_7-1_smt",
+                "name": "statement",
+                "prose": "Resources"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_7-2",
+            "title": "Competence",
+            "parts": [
+              {
+                "id": "iso-iec-42001_7-2_smt",
+                "name": "statement",
+                "prose": "Competence"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_7-3",
+            "title": "Awareness",
+            "parts": [
+              {
+                "id": "iso-iec-42001_7-3_smt",
+                "name": "statement",
+                "prose": "Awareness"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_7-4",
+            "title": "Communication",
+            "parts": [
+              {
+                "id": "iso-iec-42001_7-4_smt",
+                "name": "statement",
+                "prose": "Communication"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_7-5-3",
+            "title": "Control of documented information",
+            "parts": [
+              {
+                "id": "iso-iec-42001_7-5-3_smt",
+                "name": "statement",
+                "prose": "Control of documented information"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_8",
+        "title": "Operation",
+        "controls": [
+          {
+            "id": "iso-iec-42001_8-2",
+            "title": "AI risk assessment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_8-2_smt",
+                "name": "statement",
+                "prose": "AI risk assessment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_8-3",
+            "title": "AI risk treatment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_8-3_smt",
+                "name": "statement",
+                "prose": "AI risk treatment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_8-4",
+            "title": "AI system impact assessment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_8-4_smt",
+                "name": "statement",
+                "prose": "AI system impact assessment"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_9",
+        "title": "Performance Evaluation",
+        "controls": [
+          {
+            "id": "iso-iec-42001_9-1",
+            "title": "Monitoring, measurement, analysis and evaluation",
+            "parts": [
+              {
+                "id": "iso-iec-42001_9-1_smt",
+                "name": "statement",
+                "prose": "Monitoring, measurement, analysis and evaluation"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_9-2-1",
+            "title": "General",
+            "parts": [
+              {
+                "id": "iso-iec-42001_9-2-1_smt",
+                "name": "statement",
+                "prose": "General"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_9-2-2",
+            "title": "Internal audit programme",
+            "parts": [
+              {
+                "id": "iso-iec-42001_9-2-2_smt",
+                "name": "statement",
+                "prose": "Internal audit programme"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_9-3-1",
+            "title": "General",
+            "parts": [
+              {
+                "id": "iso-iec-42001_9-3-1_smt",
+                "name": "statement",
+                "prose": "General"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_9-3-2",
+            "title": "Management review inputs",
+            "parts": [
+              {
+                "id": "iso-iec-42001_9-3-2_smt",
+                "name": "statement",
+                "prose": "Management review inputs"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_9-3-3",
+            "title": "Management review results",
+            "parts": [
+              {
+                "id": "iso-iec-42001_9-3-3_smt",
+                "name": "statement",
+                "prose": "Management review results"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_10",
+        "title": "Improvement",
+        "controls": [
+          {
+            "id": "iso-iec-42001_10-1",
+            "title": "Continual improvement",
+            "parts": [
+              {
+                "id": "iso-iec-42001_10-1_smt",
+                "name": "statement",
+                "prose": "Continual improvement"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_10-2",
+            "title": "Nonconformity and corrective action",
+            "parts": [
+              {
+                "id": "iso-iec-42001_10-2_smt",
+                "name": "statement",
+                "prose": "Nonconformity and corrective action"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-2",
+        "title": "AI Policy",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-2-2",
+            "title": "AI policy",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-2-2_smt",
+                "name": "statement",
+                "prose": "AI policy"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-2-3",
+            "title": "Alignment with other organizational policies",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-2-3_smt",
+                "name": "statement",
+                "prose": "Alignment with other organizational policies"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-2-4",
+            "title": "Review of the AI policy",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-2-4_smt",
+                "name": "statement",
+                "prose": "Review of the AI policy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-3",
+        "title": "AI Roles and Responsibilities",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-3-2",
+            "title": "AI roles and responsibilities",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-3-2_smt",
+                "name": "statement",
+                "prose": "AI roles and responsibilities"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-3-3",
+            "title": "Reporting of concerns",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-3-3_smt",
+                "name": "statement",
+                "prose": "Reporting of concerns"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-4",
+        "title": "AI Resources",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-4-2",
+            "title": "Resource documentation",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-4-2_smt",
+                "name": "statement",
+                "prose": "Resource documentation"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-4-3",
+            "title": "(cid:9)Data resources",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-4-3_smt",
+                "name": "statement",
+                "prose": "(cid:9)Data resources"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-4-4",
+            "title": "Tooling resources",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-4-4_smt",
+                "name": "statement",
+                "prose": "Tooling resources"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-4-5",
+            "title": "System and computing resources",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-4-5_smt",
+                "name": "statement",
+                "prose": "System and computing resources"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-4-6",
+            "title": "Human resources",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-4-6_smt",
+                "name": "statement",
+                "prose": "Human resources"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-5",
+        "title": "AI System Impact Assessment",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-5-2",
+            "title": "AI system impact assessment process",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-5-2_smt",
+                "name": "statement",
+                "prose": "AI system impact assessment process"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-5-3",
+            "title": "Documentation of AI system impact assessments",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-5-3_smt",
+                "name": "statement",
+                "prose": "Documentation of AI system impact assessments"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-5-4",
+            "title": "Assessing AI system impact on individuals and groups of individuals",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-5-4_smt",
+                "name": "statement",
+                "prose": "Assessing AI system impact on individuals and groups of individuals"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-5-5",
+            "title": "Assessing societal impacts of AI systems",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-5-5_smt",
+                "name": "statement",
+                "prose": "Assessing societal impacts of AI systems"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-6",
+        "title": "AI System Development and Deployment",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-6-1-2",
+            "title": "Objectives for responsible development of AI system",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-1-2_smt",
+                "name": "statement",
+                "prose": "Objectives for responsible development of AI system"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-1-3",
+            "title": "Processes for responsible design and development of AI systems",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-1-3_smt",
+                "name": "statement",
+                "prose": "Processes for responsible design and development of AI systems"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-2",
+            "title": "AI system requirements and specification",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-2_smt",
+                "name": "statement",
+                "prose": "AI system requirements and specification"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-3",
+            "title": "Documentation of AI system design and development",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-3_smt",
+                "name": "statement",
+                "prose": "Documentation of AI system design and development"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-4",
+            "title": "AI system verification and validation",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-4_smt",
+                "name": "statement",
+                "prose": "AI system verification and validation"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-5",
+            "title": "AI system deployment",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-5_smt",
+                "name": "statement",
+                "prose": "AI system deployment"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-6",
+            "title": "AI system operation and monitoring",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-6_smt",
+                "name": "statement",
+                "prose": "AI system operation and monitoring"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-7",
+            "title": "AI system technical documentation",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-7_smt",
+                "name": "statement",
+                "prose": "AI system technical documentation"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-6-2-8",
+            "title": "AI system recording of event logs",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-6-2-8_smt",
+                "name": "statement",
+                "prose": "AI system recording of event logs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-7",
+        "title": "Data for AI Systems",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-7-2",
+            "title": "Data for development and enhancement of AI system",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-7-2_smt",
+                "name": "statement",
+                "prose": "Data for development and enhancement of AI system"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-7-3",
+            "title": "Acquisition of data",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-7-3_smt",
+                "name": "statement",
+                "prose": "Acquisition of data"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-7-4",
+            "title": "Quality of data for AI systems",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-7-4_smt",
+                "name": "statement",
+                "prose": "Quality of data for AI systems"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-7-5",
+            "title": "Data provenance",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-7-5_smt",
+                "name": "statement",
+                "prose": "Data provenance"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-7-6",
+            "title": "Data preparation",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-7-6_smt",
+                "name": "statement",
+                "prose": "Data preparation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-8",
+        "title": "Information for Interested Parties",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-8-2",
+            "title": "System documentation and information for users",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-8-2_smt",
+                "name": "statement",
+                "prose": "System documentation and information for users"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-8-3",
+            "title": "External reporting",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-8-3_smt",
+                "name": "statement",
+                "prose": "External reporting"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-8-4",
+            "title": "Communication of incidents",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-8-4_smt",
+                "name": "statement",
+                "prose": "Communication of incidents"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-8-5",
+            "title": "Information for interested parties",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-8-5_smt",
+                "name": "statement",
+                "prose": "Information for interested parties"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-9",
+        "title": "Use of AI Systems",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-9-2",
+            "title": "Processes for responsible use of AI",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-9-2_smt",
+                "name": "statement",
+                "prose": "Processes for responsible use of AI"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-9-3",
+            "title": "Objectives for responsible use of AI system",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-9-3_smt",
+                "name": "statement",
+                "prose": "Objectives for responsible use of AI system"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-9-4",
+            "title": "Intended use of the AI system",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-9-4_smt",
+                "name": "statement",
+                "prose": "Intended use of the AI system"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iso-iec-42001_B-10",
+        "title": "Relationships with Interested Parties",
+        "controls": [
+          {
+            "id": "iso-iec-42001_B-10-2",
+            "title": "Allocating responsibilities",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-10-2_smt",
+                "name": "statement",
+                "prose": "Allocating responsibilities"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-10-3",
+            "title": "Suppliers",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-10-3_smt",
+                "name": "statement",
+                "prose": "Suppliers"
+              }
+            ]
+          },
+          {
+            "id": "iso-iec-42001_B-10-4",
+            "title": "Customers",
+            "parts": [
+              {
+                "id": "iso-iec-42001_B-10-4_smt",
+                "name": "statement",
+                "prose": "Customers"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
