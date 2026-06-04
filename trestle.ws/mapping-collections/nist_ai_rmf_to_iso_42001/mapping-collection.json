@@ -1,9 +1,9 @@
 {
   "mapping-collection": {
-    "uuid": "22d61cab-1096-44c9-8ef3-4ed0dbe49d3a",
+    "uuid": "59825092-618e-41ed-b2a9-614166e4b8aa",
     "metadata": {
       "title": "NIST AI RMF Generative AI Profile to ISO/IEC 42001:2023 Mapping",
-      "last-modified": "2026-06-03T12:20:26+00:00",
+      "last-modified": "2026-06-04T14:31:37+00:00",
       "version": "1.0.0",
       "oscal-version": "1.2.1"
     },
@@ -15,7 +15,7 @@
     },
     "mappings": [
       {
-        "uuid": "096150e7-40ff-4125-97aa-2fb488da6411",
+        "uuid": "f87d2b80-3655-4ada-a418-c541aa133f76",
         "source-resource": {
           "type": "catalog",
           "href": "catalogs/nist_ai_rmf_gen_ai_1.0.0/catalog.json",
@@ -40,11 +40,11 @@
         },
         "maps": [
           {
-            "uuid": "e65e0a3e-a0ff-4c18-b843-32389c9bb752",
+            "uuid": "d94c752e-ca5d-4af1-8c36-2cbfa9636296",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-1.1"
               }
             ],
@@ -68,11 +68,11 @@
             ]
           },
           {
-            "uuid": "98622c4f-5560-4888-a454-da97343bffd4",
+            "uuid": "888446e8-3194-48d0-994e-b81afdea5742",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-1.2"
               }
             ],
@@ -108,11 +108,11 @@
             ]
           },
           {
-            "uuid": "d5099bff-0c26-4a92-8a5a-7d6f53b86a90",
+            "uuid": "c1fe6ca0-ecc2-496f-ac30-407998f3b12a",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-1.3"
               }
             ],
@@ -132,11 +132,11 @@
             ]
           },
           {
-            "uuid": "ea904cfc-0a35-4ac1-81fb-a3359f42eb47",
+            "uuid": "9ba6738c-0e91-4dd3-bcd1-a2de5e76d86c",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-1.5"
               }
             ],
@@ -156,11 +156,11 @@
             ]
           },
           {
-            "uuid": "d0776a81-2107-4dc7-8229-aeb531efe054",
+            "uuid": "c723b062-1ca6-459c-9492-5c544d500a24",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-1.6"
               }
             ],
@@ -188,11 +188,11 @@
             ]
           },
           {
-            "uuid": "89c030e0-4245-4819-b832-5b160ea4a050",
+            "uuid": "a002c8bd-02a7-4331-9480-a3a7501844c1",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-1.7"
               }
             ],
@@ -204,11 +204,11 @@
             ]
           },
           {
-            "uuid": "8df8f81f-e419-4093-8571-de90c9c82dae",
+            "uuid": "08a1fecb-57e0-409e-9aea-0575d195847c",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-2.1"
               }
             ],
@@ -244,11 +244,11 @@
             ]
           },
           {
-            "uuid": "9c313d87-e74b-43bb-bf4c-ff5e98b5281f",
+            "uuid": "a35c80ac-5abb-4c8a-93a1-ddf116079250",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-3.2"
               }
             ],
@@ -280,11 +280,11 @@
             ]
           },
           {
-            "uuid": "2f553359-438c-4ae1-9250-e44dcfd74071",
+            "uuid": "1cb0b2e7-d5ed-4736-8e97-b74ea7931b85",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-4.1"
               }
             ],
@@ -320,11 +320,11 @@
             ]
           },
           {
-            "uuid": "808ad718-6d01-4628-8a61-f0ff8cdfb5af",
+            "uuid": "10c83f2f-1821-4cb8-93e5-5b902d26982e",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-4.2"
               }
             ],
@@ -352,11 +352,11 @@
             ]
           },
           {
-            "uuid": "d70e2152-cd81-4600-84ad-cc2f6d9e6e69",
+            "uuid": "5faf45cf-5b31-4b32-8cce-1ad12041f54c",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-4.3"
               }
             ],
@@ -400,11 +400,11 @@
             ]
           },
           {
-            "uuid": "fc9fb711-4971-43eb-912e-44bc24eca955",
+            "uuid": "d5e5a5f2-00d9-417a-8a84-dac775a58d37",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-5.1"
               }
             ],
@@ -428,11 +428,11 @@
             ]
           },
           {
-            "uuid": "5ea75b4a-06e8-4504-91bd-2b83bd537de5",
+            "uuid": "ee6a697a-0e9c-4b2b-b371-3f345c06621b",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-6.1"
               }
             ],
@@ -448,11 +448,11 @@
             ]
           },
           {
-            "uuid": "43e6f5a2-a26c-4641-b188-8fa0774ad64a",
+            "uuid": "a9ae2455-582e-4ee8-b86f-9931d65d19a5",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "GV-6.2"
               }
             ],
@@ -468,11 +468,11 @@
             ]
           },
           {
-            "uuid": "a10751b5-81a9-4738-86d5-e8e9ded8b5c7",
+            "uuid": "b2db4d46-345f-4b78-8880-93e5a8607a7d",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-1.1"
               }
             ],
@@ -500,11 +500,11 @@
             ]
           },
           {
-            "uuid": "1f0111a7-956f-4865-a839-f4d5a7dd0da8",
+            "uuid": "f6b31118-5386-47c4-b982-20fe954c00a0",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-1.2"
               }
             ],
@@ -520,11 +520,11 @@
             ]
           },
           {
-            "uuid": "5ffa0416-8932-47e7-823c-0d76ac949dbb",
+            "uuid": "82116958-cc55-4a77-965a-cbbd9ced7c60",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-2.1"
               }
             ],
@@ -556,11 +556,11 @@
             ]
           },
           {
-            "uuid": "2571eb66-6771-46d2-9250-e4609bca901e",
+            "uuid": "9a1117f4-69dd-4fd5-b789-70205593a9c5",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-2.2"
               }
             ],
@@ -580,11 +580,11 @@
             ]
           },
           {
-            "uuid": "d375c2cd-86cd-490b-ace5-79f87c2c388f",
+            "uuid": "36d75268-6786-4803-ab70-a872f05d26ff",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-2.3"
               }
             ],
@@ -624,11 +624,11 @@
             ]
           },
           {
-            "uuid": "df9cc6f0-25c1-4e96-b538-c8b64ea63c01",
+            "uuid": "06258afb-9669-4ebe-a253-315c50f58aa0",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-3.4"
               }
             ],
@@ -644,11 +644,11 @@
             ]
           },
           {
-            "uuid": "0fc9584f-e6dc-4afd-9216-fda51b1dd32c",
+            "uuid": "63bb9597-57cf-4cb0-8e0b-0186f2b952ef",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-4.1"
               }
             ],
@@ -672,11 +672,11 @@
             ]
           },
           {
-            "uuid": "4e4bf4f7-d549-47be-8ae2-e41aee51930c",
+            "uuid": "f629499d-86b7-4419-b8f0-760dfabefb0f",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-5.1"
               }
             ],
@@ -692,11 +692,11 @@
             ]
           },
           {
-            "uuid": "e36b8fa2-355a-4eec-a595-364e5c3fe842",
+            "uuid": "de8b6beb-5bfe-414a-9d2d-964f08c54607",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MP-5.2"
               }
             ],
@@ -716,11 +716,11 @@
             ]
           },
           {
-            "uuid": "7370e93a-27ff-4391-9843-6ead69cad6d9",
+            "uuid": "39f4437c-7479-4066-8d9d-0178d3f55aff",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-1.1"
               }
             ],
@@ -736,11 +736,11 @@
             ]
           },
           {
-            "uuid": "4f003b82-ac20-4b08-ba3d-d133fbcf4c51",
+            "uuid": "a77d3329-ff02-4206-bffa-24e428d0251b",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-1.3"
               }
             ],
@@ -768,11 +768,11 @@
             ]
           },
           {
-            "uuid": "87c19607-e28f-4d2b-b28a-f4d0a622451c",
+            "uuid": "795d0e3f-0bd0-438b-b4fc-f66192e4cf8c",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.2"
               }
             ],
@@ -784,11 +784,11 @@
             ]
           },
           {
-            "uuid": "b03277a2-3264-4c91-b4c3-70fc8f9d5494",
+            "uuid": "5b42cafe-7e19-484e-8877-87220f030baf",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.3"
               }
             ],
@@ -804,11 +804,11 @@
             ]
           },
           {
-            "uuid": "038ac196-62ce-4a30-bc64-c2f1d5addb52",
+            "uuid": "bcddb1eb-e14e-43b1-b886-6899d404b005",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.5"
               }
             ],
@@ -832,11 +832,11 @@
             ]
           },
           {
-            "uuid": "a2d0997b-f644-4dc5-98af-6faa814ebd1e",
+            "uuid": "f95a143f-e858-4711-88db-77db892dcbd8",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.6"
               }
             ],
@@ -860,11 +860,11 @@
             ]
           },
           {
-            "uuid": "948a73c6-c91f-45dc-a8a4-289e1fced8e3",
+            "uuid": "18954744-bce6-4b45-81c0-61df74150170",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.7"
               }
             ],
@@ -900,11 +900,11 @@
             ]
           },
           {
-            "uuid": "e19416d1-9b6b-4b30-b0e5-1cea3d8964fa",
+            "uuid": "41041a69-95e0-471b-af42-bf731025203c",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.8"
               }
             ],
@@ -936,11 +936,11 @@
             ]
           },
           {
-            "uuid": "06eada27-62cd-44aa-b776-9f8004009772",
+            "uuid": "2d6f6c94-82b5-4932-bbc2-bd4159f54003",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.9"
               }
             ],
@@ -964,11 +964,11 @@
             ]
           },
           {
-            "uuid": "e1f7619a-05e6-4430-b5ef-c08901335cc1",
+            "uuid": "51d7b5f1-274f-41d6-9568-d6437c0a75ec",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.10"
               }
             ],
@@ -992,11 +992,11 @@
             ]
           },
           {
-            "uuid": "f5c508c2-67c5-4864-9206-d08967abe4c9",
+            "uuid": "5bdbf917-80af-45a7-a690-75f3274c3161",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.11"
               }
             ],
@@ -1012,11 +1012,11 @@
             ]
           },
           {
-            "uuid": "3a8a3a9e-5236-4461-93da-7f6d3abcbbe7",
+            "uuid": "eb4d2079-d62a-4958-aa02-c1417a90d5c2",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.12"
               }
             ],
@@ -1032,11 +1032,11 @@
             ]
           },
           {
-            "uuid": "ec957179-15a2-4ee9-a380-590cfe99d12d",
+            "uuid": "d42d5371-9486-4dc6-8d09-0535bb316d4e",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-2.13"
               }
             ],
@@ -1052,11 +1052,11 @@
             ]
           },
           {
-            "uuid": "1398b67e-b2c6-4604-b9af-f54264905428",
+            "uuid": "c70fcf38-839d-483b-b644-f2dd7a9f2003",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-3.1"
               }
             ],
@@ -1076,11 +1076,11 @@
             ]
           },
           {
-            "uuid": "94a84ab9-0388-4027-9494-ed13ce88f0f6",
+            "uuid": "3ee5c4be-1ddb-4d5d-bcc4-26c3da090e34",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-3.2"
               }
             ],
@@ -1100,11 +1100,11 @@
             ]
           },
           {
-            "uuid": "3c7c3a7f-e167-4c6d-9151-47f0cbd8f251",
+            "uuid": "3e856ddf-a992-42d3-83c6-a4bfd980ace1",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-3.3"
               }
             ],
@@ -1124,11 +1124,11 @@
             ]
           },
           {
-            "uuid": "37e95627-8e2a-4411-809b-aa814dce5687",
+            "uuid": "bac3e61f-0f82-46f8-9e0f-ac17c11e069e",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MS-4.2"
               }
             ],
@@ -1152,11 +1152,11 @@
             ]
           },
           {
-            "uuid": "6237d889-2500-4129-8424-3c37c15c34e8",
+            "uuid": "b889c4b4-0e7c-4002-98aa-d37b77ccc86e",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-1.3"
               }
             ],
@@ -1180,11 +1180,11 @@
             ]
           },
           {
-            "uuid": "194e2030-7fa8-401b-b104-13ca4de2adc0",
+            "uuid": "54e66d30-1973-407d-8eca-d28063777faa",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-2.2"
               }
             ],
@@ -1224,11 +1224,11 @@
             ]
           },
           {
-            "uuid": "33fc0ec5-3092-49fe-bbdb-e9564772cb97",
+            "uuid": "e244661e-e171-4829-baac-fe7b37514152",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-2.3"
               }
             ],
@@ -1252,11 +1252,11 @@
             ]
           },
           {
-            "uuid": "ca0fc79d-91dd-4886-b365-21528a9760ea",
+            "uuid": "553e661e-ca81-44f9-99ab-b13a71552275",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-2.4"
               }
             ],
@@ -1280,11 +1280,11 @@
             ]
           },
           {
-            "uuid": "5e8785ce-afaf-4b6f-9c5b-0f8d7084f311",
+            "uuid": "89c8b76a-6aee-4472-bcd4-12c4a1aa6e41",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-3.1"
               }
             ],
@@ -1300,11 +1300,11 @@
             ]
           },
           {
-            "uuid": "dad5f4ea-32d1-4959-a560-ed2edfa920b1",
+            "uuid": "27188ab3-85da-4238-aae7-83864c0adee3",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-3.2"
               }
             ],
@@ -1320,11 +1320,11 @@
             ]
           },
           {
-            "uuid": "958108dd-d9a8-42d6-bb32-7eac26d6040f",
+            "uuid": "e258eebb-b9c7-4471-b1ee-598be62ada66",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-4.1"
               }
             ],
@@ -1348,11 +1348,11 @@
             ]
           },
           {
-            "uuid": "eb557a62-71cf-483f-8b1e-f450af213ed4",
+            "uuid": "eac9e57d-deb5-4938-a6a2-6c8782bcf6de",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-4.2"
               }
             ],
@@ -1372,11 +1372,11 @@
             ]
           },
           {
-            "uuid": "f6dfcf2d-83b6-4971-95e7-b739e7223476",
+            "uuid": "c67d2666-0865-49ca-8613-5a340eac9ba3",
             "relationship": "intersects-with",
             "sources": [
               {
-                "type": "group",
+                "type": "control",
                 "id-ref": "MG-4.3"
               }
             ],
@@ -1397,7 +1397,7 @@
           }
         ],
         "target-gap-summary": {
-          "uuid": "b8cb1661-6ad4-4bc3-910b-cb98e60754ea",
+          "uuid": "e6857d34-2dac-41b8-ac5b-e64edd8c87b6",
           "unmapped-controls": [
             {
               "with-ids": []

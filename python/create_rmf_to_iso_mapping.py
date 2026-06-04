@@ -228,9 +228,9 @@ def create_mapping_collection(
             print(f"Warning: RMF group {rmf_group_id} not found in catalog")
             continue
         
-        # Create source pointing to the RMF group itself
+        # Create source pointing to the RMF control itself
         sources = [{
-            'type': 'group',
+            'type': 'control',
             'id-ref': rmf_group_id
         }]
         
